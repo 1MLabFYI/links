@@ -15,7 +15,10 @@ header p{margin:0;color:var(--muted);font-size:14px}
 .search{display:flex;gap:8px;margin-bottom:16px}
 .search input{flex:1;padding:12px 14px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--text);font-size:16px}
 .search button{padding:0 18px;border:0;border-radius:12px;background:var(--accent);color:#fff;font-size:15px;font-weight:700}
-.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;margin-bottom:12px;scroll-margin-top:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px;margin-bottom:12px;scroll-margin-top:16px;display:flex;gap:14px;align-items:flex-start}
+.card .body{flex:1;min-width:0}
+.thumb{width:84px;aspect-ratio:9/16;object-fit:cover;border-radius:10px;flex:none;background:var(--sub)}
+.pimg{width:96px;aspect-ratio:1;object-fit:contain;border-radius:10px;flex:none;background:#fff}
 .card.hit{outline:3px solid var(--accent)}
 .no{font-weight:800;color:var(--accent);font-size:14px;display:flex;justify-content:space-between}
 .no span{color:var(--muted);font-weight:400}
@@ -27,10 +30,10 @@ header p{margin:0;color:var(--muted);font-size:14px}
 <header><h1>🔬 1M생활연구소</h1><p>영상 속 상품을 번호로 찾아보세요</p></header>
 <div class="notice">이 페이지는 쿠팡 파트너스 및 네이버 쇼핑커넥트 활동의 일환으로, 링크를 통해 구매하시면 일정액의 수수료를 제공받습니다.</div>
 <form class="search" onsubmit="go();return false"><input id="q" inputmode="numeric" placeholder="영상 번호 (예: 12)"><button>찾기</button></form>
-<article class="card" id="n4"><div class="no">No.004<span>2026-11-08</span></div><h2>겨울 창문 물방울, 3가지만 바꾸면 줄어요</h2><div class="btns"><a class="btn" href="https://link.coupang.com/a/iuZtREIOSi" target="_blank" rel="sponsored noopener">쿠팡에서 보기</a><a class="btn sub" href="https://link.coupang.com/a/iuZvkYnKns" target="_blank" rel="sponsored noopener">비슷한 상품 더 보기</a></div></article>
-<article class="card" id="n3"><div class="no">No.003<span>2026-11-07</span></div><h2>겨울 빨래 쉰내, 날씨 탓이 아니에요</h2><div class="btns"><a class="btn" href="https://link.coupang.com/a/itx4d0WgmG" target="_blank" rel="sponsored noopener">쿠팡에서 보기</a><a class="btn sub" href="https://link.coupang.com/a/itx6xYpcnk" target="_blank" rel="sponsored noopener">비슷한 상품 더 보기</a></div></article>
-<article class="card" id="n2"><div class="no">No.002<span>2026-11-07</span></div><h2>보일러 틀어도 방이 춥다면? 창문 외풍부터 막으세요</h2><div class="btns"><a class="btn" href="https://link.coupang.com/a/itpvKmdv88" target="_blank" rel="sponsored noopener">쿠팡에서 보기</a><a class="btn sub" href="https://link.coupang.com/a/itpwHD53jo" target="_blank" rel="sponsored noopener">비슷한 상품 더 보기</a></div></article>
-<article class="card" id="n1"><div class="no">No.001<span>2026-11-07</span></div><h2>보일러 틀어도 방이 춥다면? 창문 외풍부터 막으세요</h2><div class="btns"><a class="btn" href="https://link.coupang.com/a/itpvKmdv88" target="_blank" rel="sponsored noopener">쿠팡에서 보기</a><a class="btn sub" href="https://link.coupang.com/a/itpwHD53jo" target="_blank" rel="sponsored noopener">비슷한 상품 더 보기</a></div></article>
+<article class="card" id="n4"><div class="body"><div class="no">No.004<span>2026-11-08</span></div><h2>겨울 창문 물방울, 3가지만 바꾸면 줄어요</h2><div class="btns"><a class="btn" href="https://link.coupang.com/a/iuZtREIOSi" target="_blank" rel="sponsored noopener">쿠팡에서 보기</a><a class="btn sub" href="https://link.coupang.com/a/iuZvkYnKns" target="_blank" rel="sponsored noopener">비슷한 상품 더 보기</a></div></div></article>
+<article class="card" id="n3"><div class="body"><div class="no">No.003<span>2026-11-07</span></div><h2>겨울 빨래 쉰내, 날씨 탓이 아니에요</h2><div class="btns"><a class="btn" href="https://link.coupang.com/a/itx4d0WgmG" target="_blank" rel="sponsored noopener">쿠팡에서 보기</a><a class="btn sub" href="https://link.coupang.com/a/itx6xYpcnk" target="_blank" rel="sponsored noopener">비슷한 상품 더 보기</a></div></div></article>
+<article class="card" id="n2"><div class="body"><div class="no">No.002<span>2026-11-07</span></div><h2>보일러 틀어도 방이 춥다면? 창문 외풍부터 막으세요</h2><div class="btns"><a class="btn" href="https://link.coupang.com/a/itpvKmdv88" target="_blank" rel="sponsored noopener">쿠팡에서 보기</a><a class="btn sub" href="https://link.coupang.com/a/itpwHD53jo" target="_blank" rel="sponsored noopener">비슷한 상품 더 보기</a></div></div></article>
+<article class="card" id="n1"><div class="body"><div class="no">No.001<span>2026-11-07</span></div><h2>보일러 틀어도 방이 춥다면? 창문 외풍부터 막으세요</h2><div class="btns"><a class="btn" href="https://link.coupang.com/a/itpvKmdv88" target="_blank" rel="sponsored noopener">쿠팡에서 보기</a><a class="btn sub" href="https://link.coupang.com/a/itpwHD53jo" target="_blank" rel="sponsored noopener">비슷한 상품 더 보기</a></div></div></article>
 </main><script>
 function go(){var n=parseInt(document.getElementById('q').value,10);if(n)location.hash='n'+n;}
 function show(){document.querySelectorAll('.card.hit').forEach(function(c){c.classList.remove('hit')});
