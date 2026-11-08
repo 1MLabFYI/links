@@ -6,7 +6,8 @@
   "links": {
    "coupang": "https://link.coupang.com/a/itpvKmdv88",
    "coupang_category": "https://link.coupang.com/a/itpwHD53jo"
-  }
+  },
+  "pimg": "img/002_p.jpg"
  },
  {
   "no": 3,
@@ -15,7 +16,8 @@
   "links": {
    "coupang": "https://link.coupang.com/a/itx4d0WgmG",
    "coupang_category": "https://link.coupang.com/a/itx6xYpcnk"
-  }
+  },
+  "pimg": "img/003_p.jpg"
  },
  {
   "no": 4,
@@ -24,6 +26,7 @@
   "links": {
    "coupang": "https://link.coupang.com/a/iuZtREIOSi",
    "coupang_category": "https://link.coupang.com/a/iuZvkYnKns"
-  }
+  },
+  "pimg": "img/004_p.jpg"
  }
 ]
