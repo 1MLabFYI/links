@@ -1,8 +1,8 @@
-# 노트북 생존 감시: 매일 08:40(한국 시간) heartbeat.json 이 오늘 날짜인지 확인하고, 아니면 텔레그램 경고
+﻿# 노트북 생존 감시: 매일 07:30(한국 시간) heartbeat.json 이 오늘 날짜인지 확인하고, 아니면 텔레그램 경고
 name: watchdog
 on:
   schedule:
-    - cron: "40 23 * * *"   # UTC 23:40 = 한국 08:40
+    - cron: "30 22 * * *"   # UTC 23:40 = 한국 07:30
   workflow_dispatch:         # 수동 시험 실행용
 jobs:
   check:
@@ -21,3 +21,4 @@ jobs:
             MSG="🚨 노트북 작업 미확인 ($TODAY)%0A오늘 아침 점검 신호가 오지 않았습니다 (마지막 신호: $LAST).%0A노트북 전원·절전·Claude Desktop 실행 여부를 확인해 주세요."
             curl -s "https://api.telegram.org/bot${TOKEN}/sendMessage" -d "chat_id=${CHAT}" -d "text=${MSG}" > /dev/null
           fi
+
