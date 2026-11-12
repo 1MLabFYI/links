@@ -85,7 +85,7 @@
  },
  {
   "no": 9,
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "title": "핫팩 매일 뜯으세요? 상황별 고르는 법",
   "links": {
    "coupang": "https://link.coupang.com/a/izKDTRyU8W",
@@ -95,5 +95,31 @@
   "thumb": "img/009.jpg",
   "pimg": "img/009_p.jpg",
   "product": "스피디 양면발열 손난로 겸용 보조배터리"
+ },
+ {
+  "no": 10,
+  "date": "2026-11-12",
+  "title": "가습기 물 계속 채워 쓰세요? 물때 막는 법",
+  "links": {
+   "coupang": "https://link.coupang.com/a/iBw3R2XsJg",
+   "coupang_category": "https://link.coupang.com/a/iBw7bFBNN6",
+   "image": "https://image13.coupangcdn.com/image/affiliate/banner/a48e0affff62e835c68a7b33c2278c87@2x.jpg"
+  },
+  "thumb": "img/010.jpg",
+  "pimg": "img/010_p.jpg",
+  "product": "한입 100% 구연산 1kg"
+ },
+ {
+  "no": 11,
+  "date": "2026-11-12",
+  "title": "여름 이불 넣기 전, 딱 3가지만 확인하세요",
+  "links": {
+   "coupang": "https://link.coupang.com/a/iBw93XZ5fo",
+   "coupang_category": "https://link.coupang.com/a/iBxbBuAydw",
+   "image": "https://image14.coupangcdn.com/image/affiliate/banner/30d8e312f0fbd283a4b150997cecdb3e@2x.jpg"
+  },
+  "thumb": "img/011.jpg",
+  "pimg": "img/011_p.jpg",
+  "product": "코멧 이불 압축팩 5개입"
  }
 ]
